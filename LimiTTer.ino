@@ -86,9 +86,9 @@ void setup() {
       if (c == 'O' && d == 'K')
         break;
     }
-    delay(100);
+    delay(200);
     ble_Serial.write("AT+NAMELimiTTer");
-    delay(100);
+    delay(200);
     ble_Serial.write("AT+RESET");
     delay(500);
         
